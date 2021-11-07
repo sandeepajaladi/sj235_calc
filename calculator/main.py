@@ -2,6 +2,7 @@
 class Calculator:
     """ This class is a collection of calculator functions """
     result = 0
+    num_a = 0
     # Addition of two numbers
     def add(self, num1_a, num2_b):
         """ Function to add two numbers """
