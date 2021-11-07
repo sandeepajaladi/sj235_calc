@@ -2,13 +2,7 @@
 
 [![Build Status](https://app.travis-ci.com/sandeepajaladi/sj235_calc.svg?branch=main)](https://app.travis-ci.com/sandeepajaladi/sj235_calc)
 
-Run Pip Install
-pip install -r requirements.txt
+![image](https://user-images.githubusercontent.com/90530329/140648580-288f071c-daf2-4738-8150-734d0ac912ae.png)
 
-To run tests, Lint, and Coverage report use this command:
 
-pytest  --pylint --cov
 
-.pylintrc is the config for pylint
-.coveragerc is the config for coverage
-setup.py is a config file for pytest
