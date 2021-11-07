@@ -40,3 +40,5 @@ class Calculator:
         self.num_a = num1_a
         self.result = self.num_a + 1
         return self.result
+
+    
