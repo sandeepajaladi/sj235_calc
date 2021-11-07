@@ -1,5 +1,6 @@
 # Calculator Project Setup
 
+[![Build Status](https://app.travis-ci.com/sandeepajaladi/sj235_calc.svg?branch=main)](https://app.travis-ci.com/sandeepajaladi/sj235_calc)
 
 Run Pip Install
 pip install -r requirements.txt
