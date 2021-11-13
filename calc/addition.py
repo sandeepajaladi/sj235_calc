@@ -6,6 +6,6 @@ from calc.calculation import Calculation
 class Addition(Calculation):
     """The addition class has one method to get the result of the the calculation A and B come from
     the calculation parent class"""
-    def get_Result(self):
+    def get_result(self):
         """Returns the result of addition function"""
         return self.value_a + self.value_b
