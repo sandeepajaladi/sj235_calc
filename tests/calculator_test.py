@@ -6,8 +6,8 @@ import pytest
 from calculator.calculator import Calculator
 
 #this is a fixture, that runs a function each time you pass it to a test
-@pytest.fixture
-def clear_history():
+@pytest.fixture(name="clear_history")
+def fixture_clear_history():
     """ Function to clear history"""
     Calculator.clear_history()
 
