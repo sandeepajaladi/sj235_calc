@@ -9,4 +9,5 @@ class Calculation:
     # Class Factory Method <- bound to the class and not the instance of the class
     @classmethod
     def create(cls, value_a, value_b):
+        """ Clear function"""
         return cls(value_a,value_b)
