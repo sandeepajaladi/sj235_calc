@@ -10,7 +10,7 @@ class Calculator:
     @staticmethod
     def get_result_of_first_calculation_added_to_history():
         """Result of first calculation added to history"""
-        return Calculator.history[0].get_Result()
+        return Calculator.history[0].get_result()
     @staticmethod
     def clear_history():
         """Function to clear history"""
@@ -28,7 +28,7 @@ class Calculator:
     @staticmethod
     def get_result_of_last_calculation_added_to_history():
         """Function to get last result from history"""
-        return Calculator.history[-1].get_Result()
+        return Calculator.history[-1].get_result()
     @staticmethod
     def add_number(value_a, value_b):
         """ adds number to result"""
