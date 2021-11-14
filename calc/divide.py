@@ -7,6 +7,6 @@ class Divide(Calculation):
     def get_result(self):
         """Returns result from the function"""
         if self.value_b <= 0:
-          return "Error"
-        else: 
-          return self.value_a / self.value_b
+          return "Error" 
+        return self.value_a / self.value_b
+    
