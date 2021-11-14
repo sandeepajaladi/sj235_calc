@@ -69,3 +69,8 @@ def test_calculator_divide(clear_history):
     """ tests division of two numbers"""
     # pylint: disable=unused-argument
     assert Calculator.divide_numbers(4,2) == 2
+    
+def test_calculator_divide(clear_history):
+    """ tests division of two numbers"""
+    # pylint: disable=unused-argument
+    assert Calculator.divide_numbers(1,0) == "Error"    
