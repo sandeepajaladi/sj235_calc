@@ -6,7 +6,7 @@ class Divide(Calculation):
     """Divide class has a method to get the result of calculation from the parent class"""
     def get_result(self):
         """Returns result from the function"""
-        if self.value_b <= 0
+        if self.value_b <= 0:
           return "Error"
-        else 
+        else: 
           return self.value_a / self.value_b
