@@ -3,6 +3,7 @@
 from calc.addition import Addition
 from calc.subtraction import Subtraction
 from calc.multiplication import Multiplication
+from calc.divide import Divide
 class Calculator:
     """ This is the Calculator class"""
     #this is the calculator static property
