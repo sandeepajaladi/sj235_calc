@@ -5,8 +5,8 @@ install:
   - pip install -r requirements.txt
 # command to run tests
 script:
-  - pytest  --pylint --cov
+  - pytest --pylint --cov --cov-report term --missing
 
 branches:
   only:
-    - improved_calc
+    - calc_assignment4
