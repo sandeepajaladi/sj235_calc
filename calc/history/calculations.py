@@ -1,14 +1,15 @@
 """Calculation history Class"""
 class Calculations:
+    """class Calculations"""
     history = []
     # pylint: disable=too-few-public-methods
     """This is the history static property"""
     @staticmethod
     def clear_history():
+        """ clear history"""
         Calculations.history.clear()
         return True
 
-    """This is the count history static property"""
     @staticmethod
     def count_history():
         """ get count from history"""
