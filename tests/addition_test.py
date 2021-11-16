@@ -11,3 +11,4 @@ def test_calculation_addition():
     #Assert
     assert addition.get_result() == 3.0
 
+
