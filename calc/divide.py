@@ -8,4 +8,5 @@ class Divide(Calculation):
         """Returns result from the function"""
         if self.value_b <= 0:
             return "Error"
-        return self.value_a / self.value_b
+        else:
+            return self.value_a / self.value_b
