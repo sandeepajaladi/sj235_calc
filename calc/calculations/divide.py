@@ -9,6 +9,6 @@ class Divide(Calculation):
         result = 1.0
         for value in self.values:
 
-        if self.value <= 0:
-            return "Error"
-        return self.value / result
+            if self.value <= 0:
+                return "Error"
+                return self.value / result
