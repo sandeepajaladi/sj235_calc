@@ -60,7 +60,7 @@ def test_calculator_subtract(clear_history):
     # pylint: disable=unused-argument
     assert Calculator.subtract_number(1, 2) == -1
 
-def test_calculator_multiply(clear_history):
+def test_calculator_multiplication(clear_history):
     """ tests multiplication of two numbers"""
     # pylint: disable=unused-argument
     assert Calculator.multiply_numbers(1, 2) == 2
