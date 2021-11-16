@@ -2,6 +2,7 @@
 class Calculations:
     history = []
     # pylint: disable=too-few-public-methods
+    """This is the history static property"""
     @staticmethod
     def clear_history():
         Calculations.history.clear()
