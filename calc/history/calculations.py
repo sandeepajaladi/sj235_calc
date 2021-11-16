@@ -11,14 +11,17 @@ class Calculations:
     """This is the count history static property"""
     @staticmethod
     def count_history():
+        """ get count from history"""
         return len(Calculations.history)
 
     @staticmethod
     def get_last_calculation():
+        """ get last calculation from history"""
         return Calculations.history[-1]
 
     @staticmethod
     def get_first_calculation():
+        """ get a first calculation from history"""
         return Calculations.history[-1]
 
     @staticmethod
