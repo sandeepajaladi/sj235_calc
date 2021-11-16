@@ -10,5 +10,6 @@ class Calculation:
     @classmethod
     def create(cls, value_a, value_b):
         """ Clear function"""
-        return cls(value_a,value_b)
+        return cls(value_a, value_b)
+
 

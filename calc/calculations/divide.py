@@ -11,4 +11,5 @@ class Divide(Calculation):
 
             if self.value <= 0:
                 return "Error"
-                return self.value / result
+            return self.value / result
+
