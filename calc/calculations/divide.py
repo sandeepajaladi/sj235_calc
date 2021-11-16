@@ -8,8 +8,6 @@ class Divide(Calculation):
         """get the divide results"""
         result = 1.0
         for value in self.value:
-
-            if self.value <= 0:
+            if value <= 0:
                 return "Error"
-            return self.value / result
-
+            return value / result
