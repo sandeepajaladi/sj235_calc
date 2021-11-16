@@ -16,3 +16,4 @@ class Calculation:
             list_values_float.append(float(item))
         return list_values_float
 
+
