@@ -10,3 +10,5 @@ script:
 branches:
   only:
     - improved_calc
+after_success:
+  - coveralls
